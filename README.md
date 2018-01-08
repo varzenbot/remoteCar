@@ -1,2 +1,12 @@
 # remoteCar
-Raspberry Pi Zero W controls a L298N driver in C++
+Raspberry Pi Zero W controlled home mapping car; C++
+
+elements: 
+a L298N motor driver
+a passive buzzer
+an ultrasonic sensor
+
+the ports used for each element are set inside defines.hpp
+
+The car will use the ultrasonic sonar combined with wireless signals
+ to find it's location in space and create a map of the house.
